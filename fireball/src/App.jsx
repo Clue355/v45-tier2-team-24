@@ -33,7 +33,6 @@ function App() {
 
     const newFilteredData = filterRanges(newValue[0], newValue[1], data);
     setFilteredRange(newFilteredData);
-    console.log(filteredRange)
   };
 
   return (
